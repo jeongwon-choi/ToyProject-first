@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/")
-public class testContoller {
+public class commonController {
     @GetMapping(value = "")
-    public String test(){
+    public String home(){
         return "Hellow VS code";
     }
 }
