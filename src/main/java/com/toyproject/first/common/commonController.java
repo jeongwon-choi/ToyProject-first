@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class commonController {
     @GetMapping(value = "")
     public String home(){
-        return "Hellow VS code";
+        return "Hellow VS code!!!!!!";
     }
 }
