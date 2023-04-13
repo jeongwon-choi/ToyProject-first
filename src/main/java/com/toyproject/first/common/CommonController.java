@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RequestMapping(value = "/")
 public class CommonController {
-
     @GetMapping(value = "")
     public String home(Model model){
         model.addAttribute("hello","Hello Thymeleaf Test");
