@@ -1,0 +1,19 @@
+server:
+  port:80
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url:
+    username:
+    password:
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  thymeleaf:
+    cache: false
